@@ -1,0 +1,8 @@
+## QQ邮箱配置
+spring:
+  mail:
+    host: smtp.qq.com #发送邮件服务器
+    username: 2571325805@qq.com #发送邮件的邮箱地址
+    password:  mlfjiuwqsnnidjeg #客户端授权码，不是邮箱密码，这个在qq邮箱设置里面自动生成的
+    properties.mail.smtp.port: 587
+    from: 2571325805@qq.com # 发送邮件的地址，和上面username一致
